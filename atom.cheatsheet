@@ -1,0 +1,49 @@
+# Atom Cheatsheet (Linux version).
+https://github.com/pd-gmit/atom-cheatsheet.git
+
+# Project Key Bindings.
+ctrl-shift-p       open the command palette.
+ctrl-p or ctrl-t   open the fuzzy finder to find a file.
+ctrl-b             look for a file that is already open.
+ctrl-shift-b       search the list of files modified /untracked in project/repo.
+ctrl-0             open and focus the the tree view.
+ctrl-shift-f       find and replace in the entire project.
+ctrl-,             open the settings view.
+ctrl-\             toggle the tree view.
+
+
+# File Key Bindings.
+ctrl-f: find and replace in the current file.
+ctrl-r: jump to a symbol such as a method definition.
+split any editor pane horizontally or vertically.
+  ctrl-k up
+  ctrl-k right
+  ctrl-k down
+  ctrl-k left
+
+move focus between editor pane.
+  ctrl-k ctrl-up
+  ctrl-k ctrl-right
+  ctrl-k ctrl-down
+  ctrl-k ctrl-left
+ctrl-w                close a pane.
+alt-ctrl-[            fold a block of code.
+alt-ctrl-]            unfold a block of code.
+alt-ctrl-shift-{      fold every blocks of code.
+alt-ctrl-shift-}      fold every blocks of code.
+ctrl-k ctrl-N         fold at a specific indentation level where N is depth.
+ctrl-0                reset font size in window.
+ctrl--                decrease font size in window.
+ctrl-=                increase font size in window.
+
+
+# Terminal Commands.
+$ atom --dev --foreground --help --log-file --new-window --spec-directory --test --version --wait [file ...]': open the current project or directory in atom.
+$ apm install [<package_name>]': install the given Atom package.
+$ apm uninstall [<package_name>]...': delete the installed package(s).
+$ apm search <package_name>': search for Atom packages/themes on the atom.io registry.
+$ apm view <package_name>': view information about a package/theme in the atom.io registry.
+
+
+# Other Useful Things.
+$ git config --global core.editor "atom --wait"': configure Atom to be your Git commit editor.
