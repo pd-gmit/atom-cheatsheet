@@ -1,0 +1,66 @@
+# Atom Cheatsheet (Linux version).
+CheatSheet Source Code: https://github.com/pd-gmit/atom-cheatsheet.git
+
+###### REF: I created this as printable version of **Jesse Kasky's** excellent **atom-keybinding-cheatsheet** [Github KeyBinding Cheatsheet Package](https://github.com/jkasky/atom-keybinding-cheatsheet)
+<!---
+My first iteration I was using keyboard images .. but then switched to
+to the keyboard tag <kbd> </kbd>
+Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./keys/shift.png)
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/shift.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/P.png" alt="Drawing" style="width: 70px;"/>
+-->
+
+### window
+| Keys | Action        |
+|:-----|---------------:
+| <kbd>F11</kbd> | Toggle **full screen**
+| <kbd>Ctrl</kbd> <kbd>+</kbd> |Increase **font size**
+| <kbd>Ctrl</kbd> <kbd>=</kbd> |Increase font size
+| <kbd>Ctrl</kbd> <kbd>-</kbd> |Decrease font size
+| <kbd>Ctrl</kbd> <kbd>0</kbd> |Reset font size
+| <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>p</kbd> | Run package specs
+| <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>f</kbd> | reload
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>&#8595; </kbd> |focus on pane below
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>&#8592; </kbd> |focus pane on left
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>n</kbd> |focus on next pane
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>p</kbd> |focus on previous pane
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>&#8594;</kbd> |focus on pane on right
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>&#8593;</kbd>  |focus on pane above
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>l</kbd> |toggle dev tools
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd>+<kbd>W</kbd>| close
+
+### tree-view
+| Keys | Action        |
+|:-----|---------------:
+| <kbd>a</kbd>  | add file|
+| <kbd>alt</kbd> <kbd>&#8592; </kbd> | recursive collapse directory
+| <kbd>alt</kbd> <kbd>&#8594; </kbd>| recursive expand directory
+| <kbd>backspace</kbd> | remove
+| <kbd>Ctrl</kbd> <kbd>0</kbd>| toggle focus
+| <kbd>Ctrl</kbd> <kbd>1</kbd>| open selected entry in pane 1
+| <kbd>Ctrl</kbd> <kbd>2</kbd>| open selected entry in pane 2
+| <kbd>Ctrl</kbd> <kbd>3</kbd>| open selected entry in pane 3
+| <kbd>Ctrl</kbd> <kbd>4</kbd>| open selected entry in pane 4
+| <kbd>Ctrl</kbd> <kbd>5</kbd>| open selected entry in pane 5
+| <kbd>Ctrl</kbd> <kbd>6</kbd>| open selected entry in pane 6
+| <kbd>Ctrl</kbd> <kbd>7</kbd>| open selected entry in pane 7
+| <kbd>Ctrl</kbd> <kbd>8</kbd>| open selected entry in pane 8
+| <kbd>Ctrl</kbd> <kbd>9</kbd>| open selected entry in pane 9
+| <kbd>Ctrl</kbd> <kbd>&#91;</kbd>| collapse directory
+| <kbd>Ctrl</kbd> <kbd>&#92;</kbd>| toggle
+| <kbd>Ctrl</kbd> <kbd>&#93;</kbd>| expand directory
+
+
+
+
+# Terminal Commands.
+$ atom --dev --foreground --help --log-file --new-window --spec-directory --test --version --wait [file ...]': open the current project or directory in atom.
+$ apm install [<package_name>]': install the given Atom package.
+$ apm uninstall [<package_name>]...': delete the installed package(s).
+$ apm search <package_name>': search for Atom packages/themes on the atom.io registry.
+$ apm view <package_name>': view information about a package/theme in the atom.io registry.
+
+
+# Other Useful Things.
+$ git config --global core.editor "atom --wait"': configure Atom to be your Git commit editor.
