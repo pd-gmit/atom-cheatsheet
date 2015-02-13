@@ -2,30 +2,79 @@
 https://github.com/pd-gmit/atom-cheatsheet.git
 
 # Project Key Bindings.
-ctrl-shift-p       open the command palette.
-ctrl-p or ctrl-t   open the fuzzy finder to find a file.
-ctrl-b             look for a file that is already open.
-ctrl-shift-b       search the list of files modified /untracked in project/repo.
-ctrl-0             open and focus the the tree view.
-ctrl-shift-f       find and replace in the entire project.
-ctrl-,             open the settings view.
-ctrl-\             toggle the tree view.
+<!---
+Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./keys/shift.png)
+-->
+
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/shift.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/P.png" alt="Drawing" style="width: 70px;"/>
+Opens the dropdown **command palette**
+
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/B.png" alt="Drawing" style="width: 70px;"/>
+**Search** for a file that is already open.
+
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/shift.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/B.png" alt="Drawing" style="width: 70px;"/>
+**Search** the list of files **modified/untracked** in project/repo
+
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/0.png" alt="Drawing" style="width: 70px;"/>
+Open and set focus on the the **tree view**: ctrl-0 (zero)
+
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/shift.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/F.png" alt="Drawing" style="width: 70px;"/>
+**Find and replace** in the entire project.
+
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/comma.png" alt="Drawing" style="width: 70px;"/>
+Open the **settings view**.
+
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/antislash.png" alt="Drawing" style="width: 70px;"/>
+Toggle the **tree view**.
 
 
 # File Key Bindings.
-ctrl-f: find and replace in the current file.
-ctrl-r: jump to a symbol such as a method definition.
-split any editor pane horizontally or vertically.
-  ctrl-k up
-  ctrl-k right
-  ctrl-k down
-  ctrl-k left
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/F.png" alt="Drawing" style="width: 70px;"/>
+**Find** and replace in the current file.
+
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/R.png" alt="Drawing" style="width: 70px;"/>
+Opens a dialog and lets you seach current file for a keywork such as a fn defn.
+
+
+
+<!--
+Split any editor pane horizontally or vertically.
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/K.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/up.png" alt="Drawing" style="width: 70px;"/>
+
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/K.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/right.png" alt="Drawing" style="width: 70px;"/>
+
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/K.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/down.png" alt="Drawing" style="width: 70px;"/>
+
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/K.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/left.png" alt="Drawing" style="width: 70px;"/>
+-->
+
 
 move focus between editor pane.
   ctrl-k ctrl-up
   ctrl-k ctrl-right
   ctrl-k ctrl-down
   ctrl-k ctrl-left
+
 ctrl-w                close a pane.
 alt-ctrl-[            fold a block of code.
 alt-ctrl-]            unfold a block of code.
