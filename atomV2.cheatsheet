@@ -1,17 +1,21 @@
 # Atom Cheatsheet (Linux version).
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Atom Cheatsheet</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Paul Dunne</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
+
+I created this as a printable version of **Jesse Kasky's** excellent **atom-keybinding-cheatsheet** [Github KeyBinding Cheatsheet Package](https://github.com/jkasky/atom-keybinding-cheatsheet)
+
 CheatSheet Source Code: https://github.com/pd-gmit/atom-cheatsheet.git
 
-###### REF: I created this as printable version of **Jesse Kasky's** excellent **atom-keybinding-cheatsheet** [Github KeyBinding Cheatsheet Package](https://github.com/jkasky/atom-keybinding-cheatsheet)
 <!---
 My first iteration I was using keyboard images .. but then switched to
 to the keyboard tag <kbd> </kbd>
+Here is some of the original source for this cheat sheet for reference:
 Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./keys/shift.png)
 <img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
 <img src="./keys/shift.png" alt="Drawing" style="width: 70px;"/>
 <img src="./keys/P.png" alt="Drawing" style="width: 70px;"/>
 -->
 
-### window
+## window
 | Keys | Action        |
 |:-----|---------------:
 | <kbd>F11</kbd> | Toggle **full screen**
@@ -30,12 +34,12 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 | <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>l</kbd> |toggle dev tools
 | <kbd>Ctrl</kbd> <kbd>Shift</kbd>+<kbd>W</kbd>| close
 
-### tree-view
+## tree-view
 | Keys | Action        |
 |:-----|---------------:
 | <kbd>a</kbd>  | add file|
-| <kbd>alt</kbd> <kbd>&#8592; </kbd> | recursive collapse directory
-| <kbd>alt</kbd> <kbd>&#8594; </kbd>| recursive expand directory
+| <kbd>Alt</kbd> <kbd>&#8592; </kbd> | recursive collapse directory
+| <kbd>Alt</kbd> <kbd>&#8594; </kbd>| recursive expand directory
 | <kbd>backspace</kbd> | remove
 | <kbd>Ctrl</kbd> <kbd>0</kbd>| toggle focus
 | <kbd>Ctrl</kbd> <kbd>1</kbd>| open selected entry in pane 1
@@ -49,8 +53,8 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 | <kbd>Ctrl</kbd> <kbd>9</kbd>| open selected entry in pane 9
 | <kbd>Ctrl</kbd> <kbd>&#91;</kbd>| collapse directory
 | <kbd>Ctrl</kbd> <kbd>&#92;</kbd>| toggle
-| <kbd>Ctrl</kbd> <kbd>alt</kbd> <kbd>&#91;</kbd>| recursive collapse directory
-| <kbd>Ctrl</kbd> <kbd>alt</kbd> <kbd>&#93;</kbd>| recursive expand directory
+| <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>&#91;</kbd>| recursive collapse directory
+| <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>&#93;</kbd>| recursive expand directory
 | <kbd>Ctrl</kbd> <kbd>c</kbd>| Copy
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>b</kbd>| toggle
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8595;</kbd>| open selected entry down
@@ -79,7 +83,7 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 | <kbd>Shift</kbd> <kbd>A</kbd> | add folder
 
 
-### pane
+## pane
 | Keys | Action        |
 |:-----|---------------:
 | <kbd>Alt</kbd> <kbd>1</kbd> | show item 1|
@@ -91,12 +95,106 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 | <kbd>Alt</kbd> <kbd>7</kbd> | show item 7|
 | <kbd>Alt</kbd> <kbd>8</kbd> | show item 8|
 | <kbd>Alt</kbd> <kbd>9</kbd> | show item 9|
-| <kbd>Ctrl</kbd> <kbd>K</kbd> <kbd>Ctrl</kbd> <kbd>W</kbd>| close other items
-| <kbd>Ctrl</kbd> <kbd>K</kbd> <kbd>&#8595;</kbd>|split-down |
-| <kbd>Ctrl</kbd> <kbd>K</kbd> <kbd>&#8592; </kbd> | split-left|
-| <kbd>Ctrl</kbd> <kbd>K</kbd> <kbd>&#8594; </kbd>| split-right|
-| <kbd>Ctrl</kbd> <kbd>K</kbd> <kbd>&#8593; </kbd>| split-up|
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>W</kbd>| close other items
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8595;</kbd>|split-down |
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8592; </kbd> | split-left|
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8594; </kbd>| split-right|
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8593; </kbd>| split-up|
+| <kbd>Ctrl</kbd> <kbd>PgDn</kbd> | show next item|
+| <kbd>Ctrl</kbd> <kbd>PgUp</kbd> | show previous item|
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>t</kbd>| reopen closed item|
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>PgDn</kbd>| move item right|
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>PgUp</kbd>| move item left|
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>&#8633;</kbd>|show previous item|
+| <kbd>Ctrl</kbd> <kbd>&#8633;</kbd>| show next item|
 
+## editor
+| Keys | Action        |
+|:-----|---------------:
+| <kbd>Alt</kbd> <kbd>b</kbd>| move to beginning of word|
+| <kbd>Alt</kbd> <kbd>d</kbd>| delete to end of word|
+| <kbd>Alt</kbd> <kbd>f</kbd>| move to end of word|
+| <kbd>Alt</kbd> <kbd>h</kbd>| delete to beginning of word|
+| <kbd>Alt</kbd> <kbd>Shift</kbd> <kbd>B</kbd>| move to end of word|
+| <kbd>Alt</kbd> <kbd>Shift</kbd> <kbd>F</kbd>| slect to end of word|
+| <kbd>Alt</kbd> <kbd>Shift</kbd> <kbd>&#8595;</kbd>| add selection below
+| <kbd>Alt</kbd> <kbd>Shift</kbd> <kbd>&#8593;</kbd>| add selection above
+| <kbd>Ctrl</kbd> <kbd>/</kbd> | toggle line comments|
+| <kbd>Ctrl</kbd> <kbd> < </kbd> | scroll to cursor|
+| <kbd>Ctrl</kbd> <kbd>&#91;</kbd> | outdent selected rows|
+| <kbd>Ctrl</kbd> <kbd>&#93;</kbd> | indent selected rows|
+| <kbd>Ctrl</kbd> <kbd>&#91;</kbd> | outdent selected rows|
+| <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>&#91;</kbd> | fold current row|
+| <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>&#93;</kbd> | unfold current row|
+| <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>f</kbd> | fold selection|
+| <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>Shift</kbd> <kbd>P</kbd>| log cursor scope|
+| <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>z</kbd> | checkout head revision|
+| <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>{</kbd> | fold all|
+| <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>}</kbd> | unfold all|
+| <kbd>Ctrl</kbd> <kbd>&#9003;</kbd> | delete to beginning of word|
+| <kbd>Ctrl</kbd> <kbd> &#9249;</kbd> | delete to end of word|
+| <kbd>Ctrl</kbd> <kbd> &#8595;</kbd> | move line down|
+| <kbd>Ctrl</kbd> <kbd> Enter</kbd> | newline below|
+| <kbd>Ctrl</kbd> <kbd> j </kbd> | join lines|
+| <kbd>Ctrl</kbd> <kbd> K</kbd> <kbd>Ctrl</kbd> <kbd>0</kbd>  | unfold all|
+| <kbd>Ctrl</kbd> <kbd> K</kbd> <kbd>Ctrl</kbd> <kbd>1</kbd>  | fold at indent level 1|
+| <kbd>Ctrl</kbd> <kbd> K</kbd> <kbd>Ctrl</kbd> <kbd>2</kbd>  | fold at indent level 2|
+| <kbd>Ctrl</kbd> <kbd> K</kbd> <kbd>Ctrl</kbd> <kbd>3</kbd>  | fold at indent level 3|
+| <kbd>Ctrl</kbd> <kbd> K</kbd> <kbd>Ctrl</kbd> <kbd>4</kbd>  | fold at indent level 4|
+| <kbd>Ctrl</kbd> <kbd> K</kbd> <kbd>Ctrl</kbd> <kbd>5</kbd>  | fold at indent level 5|
+| <kbd>Ctrl</kbd> <kbd> K</kbd> <kbd>Ctrl</kbd> <kbd>6</kbd>  | fold at indent level 6|
+| <kbd>Ctrl</kbd> <kbd> K</kbd> <kbd>Ctrl</kbd> <kbd>7</kbd>  | fold at indent level 7|
+| <kbd>Ctrl</kbd> <kbd> K</kbd> <kbd>Ctrl</kbd> <kbd>8</kbd>  | fold at indent level 8|
+| <kbd>Ctrl</kbd> <kbd> K</kbd> <kbd>Ctrl</kbd> <kbd>9</kbd>  | fold at indent level 9|
+| <kbd>Ctrl</kbd> <kbd> K</kbd> <kbd>Ctrl</kbd> <kbd>l</kbd>  |lower case|
+| <kbd>Ctrl</kbd> <kbd> K</kbd> <kbd>Ctrl</kbd> <kbd>u</kbd>  | upper case|
+| <kbd>Ctrl</kbd> <kbd>l</kbd>  |select line|
+| <kbd>Ctrl</kbd> <kbd>&#8592;</kbd>  |move to beginning of word|
+| <kbd>Ctrl</kbd> <kbd>&#8594;</kbd>  |move to end of word|
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd> C</kbd>  |copy path|
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd> D</kbd>  |duplicate lines|
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd> K</kbd>  |delete line|
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd> Enter</kbd>  |newline above|
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd> &#8592; </kbd>  |select to beginning of word|
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd> &#8594; </kbd>  |select to end of word|
+| <kbd>Ctrl</kbd> <kbd> &#8593; </kbd>  |move line up|
+| <kbd>End</kbd> |move to end of sceeen line|
+| <kbd>Enter</kbd> |newline|
+| <kbd>Esc</kbd> |consolodate selection|
+| <kbd>Home</kbd> |move to first character of line|
+| <kbd>Shift</kbd> <kbd>End</kbd> |select to end of line|
+| <kbd>Shift</kbd> <kbd>Home</kbd> |select to first character of line|
+| <kbd>Shift</kbd> <kbd>Tab</kbd> |outdent selected rows|
+| <kbd>Tab</kbd> |indent|
+
+# Notifications
+| Keys | Action        |
+|:-----|---------------:
+| <kbd>Alt</kbd> <kbd>Ctrl</kbd> <kbd>Tab</kbd> |select to first character of line|
+
+
+#Find and Replace
+| Keys | Action          |
+|:-----|---------------:|
+| <kbd>Alt</kbd> <kbd>Enter</kbd> | find all |
+| <kbd>Alt</kbd> <kbd>F3</kbd>     |  select all  |
+| <kbd>Ctrl</kbd> <kbd>Alt</kbd>  <kbd> / </kbd> | toggle regex option  |
+| <kbd>Ctrl</kbd> <kbd>Alt</kbd>  <kbd>c</kbd> |  toggle case option |
+| <kbd>Ctrl</kbd> <kbd>Alt</kbd>  <kbd>f</kbd> |  show replace |
+| <kbd>Ctrl</kbd> <kbd>Alt</kbd>  <kbd>s</kbd> |  toggle selection option |
+| <kbd>Ctrl</kbd> <kbd>Alt</kbd>  <kbd>w</kbd> |  toggle whole word option |
+| <kbd>Ctrl</kbd> <kbd>d</kbd> |  select next |
+| <kbd>Ctrl</kbd> <kbd>e</kbd>  |  use selction as find pattern |
+| <kbd>Ctrl</kbd> <kbd>Enter</kbd>  |  confirm |
+| <kbd>Ctrl</kbd> <kbd>Enter</kbd>  | replace all| ??|
+| <kbd>Ctrl</kbd> <kbd>f</kbd>  | show|
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>d</kbd>  | select skip|
+| <kbd>Ctrl</kbd> <kbd>u</kbd>  | select undo|
+| <kbd>F3</kbd>  | find next|
+| <kbd>Shift</kbd> <kbd>Enter</kbd>  | previous show|
+| <kbd>Shift</kbd> <kbd>F3</kbd>  | find previous|
+| <kbd>Shift</kbd> <kbd>Tab</kbd>  | focus-previous|
+| <kbd>Tab</kbd>  | focus next|
 
 
 
