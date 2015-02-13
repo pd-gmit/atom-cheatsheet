@@ -49,7 +49,55 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 | <kbd>Ctrl</kbd> <kbd>9</kbd>| open selected entry in pane 9
 | <kbd>Ctrl</kbd> <kbd>&#91;</kbd>| collapse directory
 | <kbd>Ctrl</kbd> <kbd>&#92;</kbd>| toggle
-| <kbd>Ctrl</kbd> <kbd>&#93;</kbd>| expand directory
+| <kbd>Ctrl</kbd> <kbd>alt</kbd> <kbd>&#91;</kbd>| recursive collapse directory
+| <kbd>Ctrl</kbd> <kbd>alt</kbd> <kbd>&#93;</kbd>| recursive expand directory
+| <kbd>Ctrl</kbd> <kbd>c</kbd>| Copy
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>b</kbd>| toggle
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8595;</kbd>| open selected entry down
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>h</kbd>| open selected entry left
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>k</kbd>| open selected entry up
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>l</kbd>| open selected entry right
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>h</kbd>| open selected entry left
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>h</kbd>| open selected entry left
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8592;</kbd>| open selected entry left
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8594;</kbd>| open selected entry right
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8593;</kbd>| open selected entry up
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>C</kbd>| copy full path
+| <kbd>Ctrl</kbd> <kbd>v</kbd> | paste
+| <kbd>Ctrl</kbd> <kbd>x</kbd> | cut
+| <kbd>Ctrl</kbd> <kbd>&#124;</kbd> | reveal active file
+| <kbd>d</kbd>| duplicate
+| <kbd> &#9249;</kbd>| remove
+| <kbd>Enter</kbd>| open selected entry
+| <kbd>F2</kbd> | move
+| <kbd>h</kbd> | collapse directory
+| <kbd>i</kbd> | toggle vcs ignored files
+| <kbd>l</kbd> | expand directory
+| <kbd>&#8592;</kbd> | collapse directory
+| <kbd>m</kbd> | move
+| <kbd>&#8594;</kbd> | expand directory
+| <kbd>Shift</kbd> <kbd>A</kbd> | add folder
+
+
+### pane
+| Keys | Action        |
+|:-----|---------------:
+| <kbd>Alt</kbd> <kbd>1</kbd> | show item 1|
+| <kbd>Alt</kbd> <kbd>2</kbd> | show item 2|
+| <kbd>Alt</kbd> <kbd>3</kbd> | show item 3|
+| <kbd>Alt</kbd> <kbd>4</kbd> | show item 4|
+| <kbd>Alt</kbd> <kbd>5</kbd> | show item 5|
+| <kbd>Alt</kbd> <kbd>6</kbd> | show item 6|
+| <kbd>Alt</kbd> <kbd>7</kbd> | show item 7|
+| <kbd>Alt</kbd> <kbd>8</kbd> | show item 8|
+| <kbd>Alt</kbd> <kbd>9</kbd> | show item 9|
+| <kbd>Ctrl</kbd> <kbd>K</kbd> <kbd>Ctrl</kbd> <kbd>W</kbd>| close other items
+| <kbd>Ctrl</kbd> <kbd>K</kbd> <kbd>&#8595;</kbd>|split-down |
+| <kbd>Ctrl</kbd> <kbd>K</kbd> <kbd>&#8592; </kbd> | split-left|
+| <kbd>Ctrl</kbd> <kbd>K</kbd> <kbd>&#8594; </kbd>| split-right|
+| <kbd>Ctrl</kbd> <kbd>K</kbd> <kbd>&#8593; </kbd>| split-up|
+
+
 
 
 
