@@ -196,6 +196,102 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 | <kbd>Shift</kbd> <kbd>Tab</kbd>  | focus-previous|
 | <kbd>Tab</kbd>  | focus next|
 
+#Open on GitHub
+| Keys | Action          |
+|:-----|---------------:|
+| <kbd>Alt</kbd> <kbd>g</kbd> <kbd>n</kbd> | blame |
+| <kbd>Alt</kbd> <kbd>g</kbd> <kbd>c</kbd> | copy URL |
+| <kbd>Alt</kbd> <kbd>g</kbd> <kbd>h</kbd> | history |
+| <kbd>Alt</kbd> <kbd>g</kbd> <kbd>o</kbd> | file |
+| <kbd>Alt</kbd> <kbd>g</kbd> <kbd>r</kbd> | branch compare |
+
+#Git Diff
+| Keys | Action          |
+|:-----|---------------:|
+| <kbd>Alt</kbd> <kbd>g</kbd> <kbd>d</kbd> | toggle diff list |
+| <kbd>Alt</kbd> <kbd>g</kbd> <kbd>&#8595;</kbd> | move to next diff |
+| <kbd>Alt</kbd> <kbd>g</kbd> <kbd>&#8593;</kbd> | move to previous diff |
+
+
+#Snippets
+| Keys | Action          |
+|:-----|---------------:|
+| <kbd>Alt</kbd> <kbd>Shift</kbd> <kbd>S</kbd> | "available" |
+| <kbd>Shift</kbd> <kbd>Tab</kbd> | previous tab stop |
+| <kbd>Tab</kbd> | expand|
+| <kbd>Tab</kbd> | next tab stop|
+
+
+#Bookmarks
+| Keys | Action          |
+|:-----|---------------:|
+| <kbd>Alt</kbd> <kbd>Shift</kbd> <kbd>F2</kbd> | clear bookmarks |
+| <kbd>Ctrl</kbd> <kbd>F2</kbd> | view all|
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>F2</kbd> | toggle bookmarks |
+| <kbd>F2</kbd> | jump to next bookmark |
+| <kbd>Shift</kbd> <kbd>F2</kbd> | jump to previous bookmark |
+
+
+#Encoding Selector
+| Keys | Action          |
+|:-----|---------------:|
+| <kbd>Alt</kbd> <kbd>u</kbd> | show |
+
+
+
+#Core
+| Keys | Action          |
+|:-----|---------------:|
+| <kbd>&#9003;</kbd>| backspace |
+| <kbd>Ctrl</kbd> <kbd>:</kbd> | cancel |
+| <kbd>Ctrl</kbd> <kbd>a</kbd> | select all |
+| <kbd>Ctrl</kbd> <kbd>c</kbd> | copy |
+| <kbd>Ctrl</kbd> <kbd>End</kbd> | move to bottom |
+| <kbd>Ctrl</kbd> <kbd>Home</kbd> | move to top |
+| <kbd>Ctrl</kbd> <kbd>Insert</kbd> |copy |
+| <kbd>Ctrl</kbd> <kbd>s</kbd> | save |
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>S</kbd> | save as |
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>Z</kbd> | redo |
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>&#8595;</kbd> | move down |
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>End</kbd> | select to bottom |
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>Home</kbd> | select to top |
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>&#8593;</kbd> | move up |
+| <kbd>Ctrl</kbd> <kbd>v</kbd>  | paste |
+| <kbd>Ctrl</kbd> <kbd>w</kbd>  | close |
+| <kbd>Ctrl</kbd> <kbd>w</kbd>  | cancel |
+| <kbd>Ctrl</kbd> <kbd>x</kbd>  | cut |
+| <kbd>Ctrl</kbd> <kbd>y</kbd>  | redo |
+| <kbd>Ctrl</kbd> <kbd>z</kbd>  | undo |
+| <kbd>Delete</kbd> | delete |
+| <kbd>&#8595;</kbd> | move down |
+| <kbd>Enter</kbd> | confirm |
+| <kbd>Escape</kbd> | cancel |
+| <kbd>j</kbd> | move down |
+| <kbd>k</kbd> | move up |
+| <kbd>left</kbd> | move left |
+| <kbd>Page Down</kbd> | page down|
+| <kbd>Page Up</kbd> | page up|
+| <kbd>&#8594;</kbd> | right|
+| <kbd>Shift</kbd> <kbd>&#9003;</kbd>  | backspace |
+| <kbd>Shift</kbd> <kbd>Delete</kbd>  | cut |
+| <kbd>Shift</kbd> <kbd>&#8595;</kbd>  | select down |
+| <kbd>Shift</kbd> <kbd>Insert</kbd>  | paste|
+| <kbd>Shift</kbd> <kbd>&#8592;</kbd>  | select left |
+| <kbd>Shift</kbd> <kbd>Page Down</kbd>  | select page down |
+| <kbd>Shift</kbd> <kbd>&#8594;</kbd>  | select right |
+| <kbd>Shift</kbd> <kbd>Tab</kbd>  | focus previous |
+| <kbd>Shift</kbd> <kbd>&#8593;</kbd>  | select up |
+| <kbd>Space</kbd>   | validate |
+| <kbd>Tab</kbd>  | focus next |
+| <kbd>Tab</kbd>  | confirm |
+| <kbd>&#8593;</kbd>  | move up |
+
+
+#asciidoc preview
+
+
+
+
 
 
 
