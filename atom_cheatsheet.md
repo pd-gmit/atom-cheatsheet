@@ -288,6 +288,7 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 
 
 #asciidoc preview
+| Keys | Action          |
 |:-----|---------------:|
 | <kbd>Cmd</kbd> <kbd>+</kbd>  | zoom in |
 | <kbd>Cmd</kbd> <kbd>-</kbd>  | zoom out |
@@ -299,6 +300,7 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 
 
 #image view
+| Keys | Action          |
 |:-----|---------------:|
 | <kbd>Ctrl</kbd> <kbd>+</kbd>  | zoom in |
 | <kbd>Ctrl</kbd> <kbd>-</kbd>  | zoom out |
@@ -308,6 +310,7 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 | <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>M</kbd> | toggle |
 
 #markdown preview
+| Keys | Action          |
 |:-----|---------------:|
 | <kbd>Ctrl</kbd> <kbd>+</kbd>  | zoom in |
 | <kbd>Ctrl</kbd> <kbd>-</kbd>  | zoom out |
@@ -318,6 +321,7 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 
 
 #application
+| Keys | Action          |
 |:-----|---------------:|
 | <kbd>Ctrl</kbd> <kbd>,</kbd>  | show settings|
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>o</kbd> | opendev|
@@ -329,18 +333,22 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 | <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>O</kbd> | open folder|
 
 #settings view
+| Keys | Action          |
 |:-----|---------------:|
 | <kbd>Ctrl</kbd> <kbd>,</kbd>  | open|
 
 #key binding resolver
+| Keys | Action          |
 |:-----|---------------:|
 | <kbd>Ctrl</kbd> <kbd>.</kbd>  | togggle|
 
 #spell check
+| Keys | Action          |
 |:-----|---------------:|
 | <kbd>Ctrl</kbd> <kbd>:</kbd>  | correct misspelling|
 
 #bracket matcher
+| Keys | Action          |
 |:-----|---------------:|
 | <kbd>Ctrl</kbd> <kbd>&#93;</kbd>  | remove brackets from selection|
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>.</kbd> | close tag|
@@ -348,10 +356,12 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 | <kbd>Ctrl</kbd> <kbd>m</kbd>  | go to matching bracket|
 
 #keybindding cheat sheet
+| Keys | Action          |
 |:-----|---------------:|
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>/</kbd> | toggle key binding cheat sheet|
 
 #project find
+| Keys | Action          |
 |:-----|---------------:|
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>/</kbd> | toggle regex option|
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>c</kbd> | toggle case option|
@@ -361,6 +371,7 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 
 
 #symbols view
+| Keys | Action          |
 |:-----|---------------:|
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>&#8595;</kbd> | go to declaration|
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>&#8593;</kbd> | return from declaration|
@@ -368,11 +379,13 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>&#8593;</kbd> | return from declaration|
 
 #autoflow
+| Keys | Action          |
 |:-----|---------------:|
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>q</kbd> | reflow selection|
 
 
 #fuzzy finder
+| Keys | Action          |
 |:-----|---------------:|
 | <kbd>Ctrl</kbd> <kbd>b</kbd> | toggle buffer finder|
 | <kbd>Ctrl</kbd> <kbd>p</kbd> | toggle file finder|
@@ -380,31 +393,38 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 | <kbd>Ctrl</kbd> <kbd>t</kbd>| toggle file finder|
 
 #go to line
+| Keys | Action          |
 |:-----|---------------:|
 | <kbd>Ctrl</kbd> <kbd>g</kbd> | toggle |
 
 
 #markdown pdf
+| Keys | Action          |
 |:-----|---------------:|
 | <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>C</kbd>| convert|
 
 #style guide
+| Keys | Action          |
 |:-----|---------------:|
 | <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>G</kbd>| show|
 
 #grammar selector
+| Keys | Action          |
 |:-----|---------------:|
 | <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>L</kbd>| show|
 
 #command palette
+| Keys | Action          |
 |:-----|---------------:|
 | <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>P</kbd>| toggle|
 
 #auto complete
 |:-----|---------------:|
+| Keys | Action          |
 | <kbd>Ctrl</kbd> <kbd>Space</kbd> <kbd>L</kbd>| toggle|
 
 #tool panel
+| Keys | Action          |
 |:-----|---------------:|
 | <kbd>Esc</kbd> | unfocus|
 
