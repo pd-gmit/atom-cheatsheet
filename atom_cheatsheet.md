@@ -18,10 +18,11 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 ## window
 | Keys | Action        |
 |:-----|---------------:
-| <kbd>F11</kbd> | Toggle **full screen**
-| <kbd>Ctrl</kbd> <kbd>+</kbd> |Increase **font size**
+| <kbd>F11</kbd> | Toggle full screen
+| <kbd>Ctrl</kbd> <kbd>+</kbd> |Increase font size
 | <kbd>Ctrl</kbd> <kbd>=</kbd> |Increase font size
 | <kbd>Ctrl</kbd> <kbd>-</kbd> |Decrease font size
+| <kbd>Ctrl</kbd> <kbd>_</kbd> |Decrease font size
 | <kbd>Ctrl</kbd> <kbd>0</kbd> |Reset font size
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>p</kbd> | Run package specs
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>f</kbd> | reload
@@ -32,7 +33,7 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>&#8594;</kbd> |focus on pane on right
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>&#8593;</kbd>  |focus on pane above
 | <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>l</kbd> |toggle dev tools
-| <kbd>Ctrl</kbd> <kbd>Shift</kbd>+<kbd>W</kbd>| close
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>W</kbd>| close
 
 ## tree-view
 | Keys | Action        |
@@ -62,7 +63,8 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>k</kbd>| open selected entry up
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>l</kbd>| open selected entry right
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>h</kbd>| open selected entry left
-| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>h</kbd>| open selected entry left
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>j</kbd>| open selected entry down
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd></kbd>| open selected entry left
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8592;</kbd>| open selected entry left
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8594;</kbd>| open selected entry right
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8593;</kbd>| open selected entry up
@@ -75,7 +77,7 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 | <kbd>Enter</kbd>| open selected entry
 | <kbd>F2</kbd> | move
 | <kbd>h</kbd> | collapse directory
-| <kbd>i</kbd> | toggle vcs ignored files
+| <kbd>I</kbd> | toggle vcs ignored files
 | <kbd>l</kbd> | expand directory
 | <kbd>&#8592;</kbd> | collapse directory
 | <kbd>m</kbd> | move
@@ -95,14 +97,15 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 | <kbd>Alt</kbd> <kbd>7</kbd> | show item 7|
 | <kbd>Alt</kbd> <kbd>8</kbd> | show item 8|
 | <kbd>Alt</kbd> <kbd>9</kbd> | show item 9|
-| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>W</kbd>| close other items
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>W</kbd>| close other items
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>w</kbd> | close other items
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8595;</kbd>|split-down |
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8592; </kbd> | split-left|
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8594; </kbd>| split-right|
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8593; </kbd>| split-up|
 | <kbd>Ctrl</kbd> <kbd>PgDn</kbd> | show next item|
 | <kbd>Ctrl</kbd> <kbd>PgUp</kbd> | show previous item|
-| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>t</kbd>| reopen closed item|
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>T</kbd>| reopen closed item|
 | <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>PgDn</kbd>| move item right|
 | <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>PgUp</kbd>| move item left|
 | <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>&#8633;</kbd>|show previous item|
