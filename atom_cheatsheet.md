@@ -419,8 +419,8 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 | <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>P</kbd>| toggle|
 
 #auto complete
-|:-----|---------------:|
 | Keys | Action          |
+|:-----|---------------:|
 | <kbd>Ctrl</kbd> <kbd>Space</kbd> <kbd>L</kbd>| toggle|
 
 #tool panel
