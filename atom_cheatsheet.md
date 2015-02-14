@@ -429,23 +429,15 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 | <kbd>Esc</kbd> | unfocus|
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 # Terminal Commands.
 $ atom --dev --foreground --help --log-file --new-window --spec-directory --test --version --wait [file ...]': open the current project or directory in atom.
+
 $ apm install [<package_name>]': install the given Atom package.
+
 $ apm uninstall [<package_name>]...': delete the installed package(s).
+
 $ apm search <package_name>': search for Atom packages/themes on the atom.io registry.
+
 $ apm view <package_name>': view information about a package/theme in the atom.io registry.
 
 
