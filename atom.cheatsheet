@@ -1,0 +1,98 @@
+# Atom Cheatsheet (Linux version).
+https://github.com/pd-gmit/atom-cheatsheet.git
+
+# Project Key Bindings.
+<!---
+Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./keys/shift.png)
+-->
+
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/shift.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/P.png" alt="Drawing" style="width: 70px;"/>
+Opens the dropdown **command palette**
+
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/B.png" alt="Drawing" style="width: 70px;"/>
+**Search** for a file that is already open.
+
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/shift.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/B.png" alt="Drawing" style="width: 70px;"/>
+**Search** the list of files **modified/untracked** in project/repo
+
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/0.png" alt="Drawing" style="width: 70px;"/>
+Open and set focus on the the **tree view**: ctrl-0 (zero)
+
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/shift.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/F.png" alt="Drawing" style="width: 70px;"/>
+**Find and replace** in the entire project.
+
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/comma.png" alt="Drawing" style="width: 70px;"/>
+Open the **settings view**.
+
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/antislash.png" alt="Drawing" style="width: 70px;"/>
+Toggle the **tree view**.
+
+
+# File Key Bindings.
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/F.png" alt="Drawing" style="width: 70px;"/>
+**Find** and replace in the current file.
+
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/R.png" alt="Drawing" style="width: 70px;"/>
+Opens a dialog and lets you seach current file for a keywork such as a fn defn.
+
+
+
+<!--
+Split any editor pane horizontally or vertically.
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/K.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/up.png" alt="Drawing" style="width: 70px;"/>
+
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/K.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/right.png" alt="Drawing" style="width: 70px;"/>
+
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/K.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/down.png" alt="Drawing" style="width: 70px;"/>
+
+<img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/K.png" alt="Drawing" style="width: 70px;"/>
+<img src="./keys/left.png" alt="Drawing" style="width: 70px;"/>
+-->
+
+
+move focus between editor pane.
+  ctrl-k ctrl-up
+  ctrl-k ctrl-right
+  ctrl-k ctrl-down
+  ctrl-k ctrl-left
+
+ctrl-w                close a pane.
+alt-ctrl-[            fold a block of code.
+alt-ctrl-]            unfold a block of code.
+alt-ctrl-shift-{      fold every blocks of code.
+alt-ctrl-shift-}      fold every blocks of code.
+ctrl-k ctrl-N         fold at a specific indentation level where N is depth.
+ctrl-0                reset font size in window.
+ctrl--                decrease font size in window.
+ctrl-=                increase font size in window.
+
+
+# Terminal Commands.
+$ atom --dev --foreground --help --log-file --new-window --spec-directory --test --version --wait [file ...]': open the current project or directory in atom.
+$ apm install [<package_name>]': install the given Atom package.
+$ apm uninstall [<package_name>]...': delete the installed package(s).
+$ apm search <package_name>': search for Atom packages/themes on the atom.io registry.
+$ apm view <package_name>': view information about a package/theme in the atom.io registry.
+
+
+# Other Useful Things.
+$ git config --global core.editor "atom --wait"': configure Atom to be your Git commit editor.
