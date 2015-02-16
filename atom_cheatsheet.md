@@ -1,7 +1,7 @@
 # Atom Cheatsheet (Linux version).
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Atom Cheatsheet</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Paul Dunne</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
 
-I created this as a printable version of **Jesse Kasky's** excellent **atom-keybinding-cheatsheet** [Github KeyBinding Cheatsheet Package](https://github.com/jkasky/atom-keybinding-cheatsheet)
+I created this as a printable version of **Jesse Kasky's** excellent **atom-keybinding-cheatsheet** [Github KeyBinding Cheatsheet Package](https://github.com/jkasky/atom-keybinding-cheatsheet). As I go I'm expanding it with my own notes.
 
 CheatSheet Source Code: https://github.com/pd-gmit/atom-cheatsheet.git
 
@@ -14,16 +14,23 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 <img src="./keys/shift.png" alt="Drawing" style="width: 70px;"/>
 <img src="./keys/P.png" alt="Drawing" style="width: 70px;"/>
 -->
-
+## Atom concept notes
+* You can start Atom from the command line (and it will start and open all the files in that folder. The files will be visible in the "folder view" in the file view panel.
+* When Atom starts you can toggle the "folder view" by pressing the Ctrl and \ key combination. Ctrl and \ is often simply written in the documentation as Ctrl-\
+* You can also display a list of files (in the folder in question) by typing Ctrl-t. Simply select the file you require from the dropdown selection panel to open it in the editor.
+* When you're in an editor "pane" you can create a new file by selecting the menu item File|New File or else type Ctrl+n and a new **tab** is created in that pane.
+* A "pane" can contain multiple tabs.  
+* Each folder you open in Atom starts a new instance of Atom. This new instance will display the folder contents in a new "tree view" in that Atom instance.
+* You can select several sequential|non sequential lines by pressing Ctrl and Mouse-LEFT-Click the line(s) and then write to them (or edit them) simultaneously. Press ESC to stop.
 
 ## window
 | Keys                     | Action             |Comment     |
 |:-------------------------|:-------------------:|-----------:|
 | <kbd>F11</kbd>      | toggle full screen |            |
-| <kbd>Ctrl</kbd> <kbd>+</kbd>   |increase font size | |
+| <kbd>Ctrl</kbd> <kbd>+</kbd>   |increase font size |
 | <kbd>Ctrl</kbd> <kbd>=</kbd>   |increase font size| |
-| <kbd>Ctrl</kbd> <kbd>-</kbd>   |increase font size | |
-| <kbd>Ctrl</kbd> <kbd>_</kbd>   |decrease font size| |
+| <kbd>Ctrl</kbd> <kbd>-</kbd>   |increase font size |
+| <kbd>Ctrl</kbd> <kbd>_</kbd>   |decrease font size|
 | <kbd>Ctrl</kbd> <kbd>0</kbd>   | highlights current file |  |
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>p</kbd> | run  package specs | pops/opens a spec suite window |
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>f</kbd> | reloads file | |
@@ -37,10 +44,7 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 | <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>W</kbd>| close
 
 
-## tree-view
-<!--- The tree view pane can be toggled visible|invisible  --->
-Toggle the working folder visibility (called the *Tree View Pane*) with <kbd>Ctrl</kbd>  <kbd>\</kbd>
-
+## tree-view (must be open and selected)
 | Keys | Action        |
 |:-----|---------------:
 | <kbd>a</kbd>  | pops add a new file dialog|
@@ -58,7 +62,7 @@ Toggle the working folder visibility (called the *Tree View Pane*) with <kbd>Ctr
 | <kbd>Ctrl</kbd> <kbd>8</kbd>| open selected entry in pane 8
 | <kbd>Ctrl</kbd> <kbd>9</kbd>| open selected entry in pane 9
 | <kbd>Ctrl</kbd> <kbd>&#91;</kbd>| collapse directory
-| <kbd>Ctrl</kbd> <kbd>&#92;</kbd>| toggle
+| <kbd>Ctrl</kbd> <kbd>&#92;</kbd>| toggle tree view pane visibility
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>&#91;</kbd>| recursive collapse directory
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>&#93;</kbd>| recursive expand directory
 | <kbd>Ctrl</kbd> <kbd>c</kbd>| Copy
