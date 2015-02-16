@@ -15,13 +15,13 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 <img src="./keys/P.png" alt="Drawing" style="width: 70px;"/>
 -->
 ## Atom concept notes
-* You can start Atom from the command line (and it will start and open all the files in that folder. The files will be visible in the "folder view" in the file view panel.
+* You can start Atom from the command line (and it will start and open all the files in that folder). The files will be visible in the "folder view" in the file view panel.
 * When Atom starts you can toggle the "folder view" by pressing the Ctrl and \ key combination. Ctrl and \ is often simply written in the documentation as Ctrl-\
-* You can also display a list of files (in the folder in question) by typing Ctrl-t. Simply select the file you require from the dropdown selection panel to open it in the editor.
+* You can also display a list of files (in the folder in question) by typing Ctrl-t. This cause a dropdown menu to appear. Simply select the file you require from the dropdown selection panel to open it in the editor.
 * When you're in an editor "pane" you can create a new file by selecting the menu item File|New File or else type Ctrl+n and a new **tab** is created in that pane.
 * A "pane" can contain multiple tabs.  
 * Each folder you open in Atom starts a new instance of Atom. This new instance will display the folder contents in a new "tree view" in that Atom instance.
-* You can select several sequential|non sequential lines by pressing Ctrl and Mouse-LEFT-Click the line(s) and then write to them (or edit them) simultaneously. Press ESC to stop.
+* You can select several sequential | non sequential lines by pressing Ctrl and then Mouse-Left-Click the line(s) and then you can write to them (or edit them) simultaneously. Press ESC to stop.
 
 ## window
 | Keys                     | Action             |Comment     |
