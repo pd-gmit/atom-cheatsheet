@@ -16,21 +16,19 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 -->
 
 
-
-
 ## window
-| Keys | Action        |Comment
-|:-----|---------------:--------:
-| <kbd>F11</kbd> | toggle full screen
-| <kbd>Ctrl</kbd> <kbd>+</kbd> |increase font size
-| <kbd>Ctrl</kbd> <kbd>=</kbd> |increase font size
-| <kbd>Ctrl</kbd> <kbd>-</kbd> |increase font size
-| <kbd>Ctrl</kbd> <kbd>_</kbd> |decrease font size
-| <kbd>Ctrl</kbd> <kbd>0</kbd> | reset font size | not working?
-| <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>p</kbd> | run package specs | pops/opens a spec suite window
-| <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>f</kbd> | reloads file
-| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>&#8592; </kbd> |focus pane on left
-| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>&#8595; </kbd> |focus on pane below
+| Keys                     | Action             |Comment     |
+|:-------------------------|:-------------------:|-----------:|
+| <kbd>F11</kbd>      | toggle full screen |            |
+| <kbd>Ctrl</kbd> <kbd>+</kbd>   |increase font size | |
+| <kbd>Ctrl</kbd> <kbd>=</kbd>   |increase font size| |
+| <kbd>Ctrl</kbd> <kbd>-</kbd>   |increase font size | |
+| <kbd>Ctrl</kbd> <kbd>_</kbd>   |decrease font size| |
+| <kbd>Ctrl</kbd> <kbd>0</kbd>   | highlights current file |  |
+| <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>p</kbd> | run  package specs | pops/opens a spec suite window |
+| <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>f</kbd> | reloads file | |
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>&#8592; </kbd> |focus pane on left ||
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd>  <kbd>&#8595; </kbd> |focus on pane below ||
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>n</kbd> |focus on next pane | creates  a new tab with empty file |
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>p</kbd> |focus on previous pane | not working? appears to move to end of next word
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>&#8594;</kbd> |focus on pane on right
