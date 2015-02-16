@@ -7,7 +7,7 @@ CheatSheet Source Code: https://github.com/pd-gmit/atom-cheatsheet.git
 
 <!---
 My first iteration I was using keyboard images .. but then switched to
-to the keyboard tag <kbd> </kbd>
+to the keyboard tag: <kbd> </kbd>
 Here is some of the original source for this cheat sheet for reference:
 Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./keys/shift.png)
 <img src="./keys/ctrl.png" alt="Drawing" style="width: 70px;"/>
@@ -15,30 +15,37 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 <img src="./keys/P.png" alt="Drawing" style="width: 70px;"/>
 -->
 
+
+
+
 ## window
-| Keys | Action        |
-|:-----|---------------:
-| <kbd>F11</kbd> | Toggle full screen
-| <kbd>Ctrl</kbd> <kbd>+</kbd> |Increase font size
-| <kbd>Ctrl</kbd> <kbd>=</kbd> |Increase font size
-| <kbd>Ctrl</kbd> <kbd>-</kbd> |Decrease font size
-| <kbd>Ctrl</kbd> <kbd>_</kbd> |Decrease font size
-| <kbd>Ctrl</kbd> <kbd>0</kbd> |Reset font size
-| <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>p</kbd> | Run package specs
-| <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>f</kbd> | reload
-| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>&#8595; </kbd> |focus on pane below
+| Keys | Action        |Comment
+|:-----|---------------:--------:
+| <kbd>F11</kbd> | toggle full screen
+| <kbd>Ctrl</kbd> <kbd>+</kbd> |increase font size
+| <kbd>Ctrl</kbd> <kbd>=</kbd> |increase font size
+| <kbd>Ctrl</kbd> <kbd>-</kbd> |increase font size
+| <kbd>Ctrl</kbd> <kbd>_</kbd> |decrease font size
+| <kbd>Ctrl</kbd> <kbd>0</kbd> | reset font size | not working?
+| <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>p</kbd> | run package specs | pops/opens a spec suite window
+| <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>f</kbd> | reloads file
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>&#8592; </kbd> |focus pane on left
-| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>n</kbd> |focus on next pane
-| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>p</kbd> |focus on previous pane
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>&#8595; </kbd> |focus on pane below
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>n</kbd> |focus on next pane | creates  a new tab with empty file |
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>p</kbd> |focus on previous pane | not working? appears to move to end of next word
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>&#8594;</kbd> |focus on pane on right
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>&#8593;</kbd>  |focus on pane above
 | <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>l</kbd> |toggle dev tools
 | <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>W</kbd>| close
 
+
 ## tree-view
+<!--- The tree view pane can be toggled visible|invisible  --->
+Toggle the working folder visibility (called the *Tree View Pane*) with <kbd>Ctrl</kbd>  <kbd>\</kbd>
+
 | Keys | Action        |
 |:-----|---------------:
-| <kbd>a</kbd>  | add file|
+| <kbd>a</kbd>  | pops add a new file dialog|
 | <kbd>Alt</kbd> <kbd>&#8592; </kbd> | recursive collapse directory
 | <kbd>Alt</kbd> <kbd>&#8594; </kbd>| recursive expand directory
 | <kbd>backspace</kbd> | remove
@@ -80,7 +87,7 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 | <kbd>I</kbd> | toggle vcs ignored files
 | <kbd>l</kbd> | expand directory
 | <kbd>&#8592;</kbd> | collapse directory
-| <kbd>m</kbd> | move
+| <kbd>m</kbd> | pops dialog for new path for the file | The file must be selected in the tree-view
 | <kbd>&#8594;</kbd> | expand directory
 | <kbd>Shift</kbd> <kbd>A</kbd> | add folder
 
@@ -88,28 +95,27 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 ## pane
 | Keys | Action        |
 |:-----|---------------:
-| <kbd>Alt</kbd> <kbd>1</kbd> | show item 1|
-| <kbd>Alt</kbd> <kbd>2</kbd> | show item 2|
-| <kbd>Alt</kbd> <kbd>3</kbd> | show item 3|
-| <kbd>Alt</kbd> <kbd>4</kbd> | show item 4|
-| <kbd>Alt</kbd> <kbd>5</kbd> | show item 5|
-| <kbd>Alt</kbd> <kbd>6</kbd> | show item 6|
-| <kbd>Alt</kbd> <kbd>7</kbd> | show item 7|
-| <kbd>Alt</kbd> <kbd>8</kbd> | show item 8|
-| <kbd>Alt</kbd> <kbd>9</kbd> | show item 9|
-| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>W</kbd>| close other items
-| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>w</kbd> | close other items
-| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8595;</kbd>|split-down |
-| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8592; </kbd> | split-left|
-| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8594; </kbd>| split-right|
-| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8593; </kbd>| split-up|
-| <kbd>Ctrl</kbd> <kbd>PgDn</kbd> | show next item|
-| <kbd>Ctrl</kbd> <kbd>PgUp</kbd> | show previous item|
-| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>T</kbd>| reopen closed item|
+| <kbd>Alt</kbd> <kbd>1</kbd> | show/switch to pane/tab 1|
+| <kbd>Alt</kbd> <kbd>2</kbd> | show pane/tab 2|
+| <kbd>Alt</kbd> <kbd>3</kbd> | show pane/tab 3|
+| <kbd>Alt</kbd> <kbd>4</kbd> | show pane/tab 4|
+| <kbd>Alt</kbd> <kbd>5</kbd> | show pane/tab 5|
+| <kbd>Alt</kbd> <kbd>6</kbd> | show pane/tab 6|
+| <kbd>Alt</kbd> <kbd>7</kbd> | show pane/tab 7|
+| <kbd>Alt</kbd> <kbd>8</kbd> | show pane/tab 8|
+| <kbd>Alt</kbd> <kbd>9</kbd> | show pane/tab 9|
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>w</kbd> | close current pane
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8595;</kbd>|swaps current line with line below |
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8592; </kbd> | moves cursor one word left|
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8594; </kbd>| moves cursor one word right|
+| <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>&#8593; </kbd>| swaps current line with line above|
+| <kbd>Ctrl</kbd> <kbd>PgDn</kbd> | show next pane/tab|
+| <kbd>Ctrl</kbd> <kbd>PgUp</kbd> | show previous pane/tab|
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>T</kbd>| reopens previously closed file(s) in a pane/tab|
 | <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>PgDn</kbd>| move item right|
 | <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>PgUp</kbd>| move item left|
-| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>&#8633;</kbd>|show previous item|
-| <kbd>Ctrl</kbd> <kbd>&#8633;</kbd>| show next item|
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>&#8633;</kbd>|cycles through panes/tabs reverse order|
+| <kbd>Ctrl</kbd> <kbd>&#8633;</kbd>| cycles through panes/tabs forward order|
 
 ## editor
 | Keys | Action        |
@@ -119,14 +125,14 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 | <kbd>Alt</kbd> <kbd>f</kbd>| move to end of word|
 | <kbd>Alt</kbd> <kbd>h</kbd>| delete to beginning of word|
 | <kbd>Alt</kbd> <kbd>Shift</kbd> <kbd>B</kbd>| move to end of word|
-| <kbd>Alt</kbd> <kbd>Shift</kbd> <kbd>F</kbd>| slect to end of word|
+| <kbd>Alt</kbd> <kbd>Shift</kbd> <kbd>F</kbd>| select to end of word|
 | <kbd>Alt</kbd> <kbd>Shift</kbd> <kbd>&#8595;</kbd>| add selection below
 | <kbd>Alt</kbd> <kbd>Shift</kbd> <kbd>&#8593;</kbd>| add selection above
 | <kbd>Ctrl</kbd> <kbd>/</kbd> | toggle line comments|
 | <kbd>Ctrl</kbd> <kbd> < </kbd> | scroll to cursor|
-| <kbd>Ctrl</kbd> <kbd>&#91;</kbd> | outdent selected rows|
+| <kbd>Ctrl</kbd> <kbd>&#91;</kbd> | out-dent selected rows|
 | <kbd>Ctrl</kbd> <kbd>&#93;</kbd> | indent selected rows|
-| <kbd>Ctrl</kbd> <kbd>&#91;</kbd> | outdent selected rows|
+| <kbd>Ctrl</kbd> <kbd>&#91;</kbd> | out-dent selected rows|
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>&#91;</kbd> | fold current row|
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>&#93;</kbd> | unfold current row|
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>f</kbd> | fold selection|
