@@ -66,7 +66,7 @@ Please note that the Shift key is often labeled on the keyboard as <kbd> &#8679;
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>&#8594;</kbd> |focus on pane on right
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>&#8593;</kbd>  |focus on pane above
 | <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>l</kbd> |toggle dev tools
-| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>W</kbd>| close
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>W</kbd>| close window
 
 
 ## tree-view (must be open and selected)
@@ -268,10 +268,10 @@ Please note that the Shift key is often labeled on the keyboard as <kbd> &#8679;
 | <kbd>Shift</kbd> <kbd>F2</kbd> | jump to previous bookmark |
 
 
-#Encoding Selector
+#Text Character Encoding drop down selector
 | Keys | Action          |
 |:-----|---------------:|
-| <kbd>Alt</kbd> <kbd>u</kbd> | show |
+| <kbd>Alt</kbd> <kbd>u</kbd> | show  supported character encodings|
 
 
 
