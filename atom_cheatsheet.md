@@ -19,7 +19,7 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 * You can start Atom from the command line (and it will start and open all the files in that folder). The files will be visible in the "folder view" in the file view panel.
 
 ###folders and files
-* When Atom starts you can toggle the "file/folder view pane" by pressing the <kbd>Ctrl</kbd> and <kbd>\</kbd> simultaneusly. This shortcut is often simply written in the documentation as Ctrl-\
+* When Atom starts you can toggle the "file/folder view pane" by pressing the <kbd>Ctrl</kbd> and <kbd>&#92;</kbd> simultaneously. This shortcut is often simply written in the documentation as Ctrl-\
 * Alternatively you can display a list of files (in the folder in question) by typing <kbd>Ctrl</kbd> <kbd>t</kbd>. This cause a drop-down menu to appear. Simply select the file you require from the drop-down selection panel to open it in the editor.
 * Each folder you open in Atom starts a new instance of Atom. This new instance will display the folder contents in a new "tree view" in that Atom instance.
 
@@ -34,14 +34,14 @@ Please note that the Shift key is often labeled on the keyboard as <kbd> &#8679;
 * Packages shows the currently installed packages (including ones that the user has installed themselves).
 * Themes show the installed themes - more can be added by the user.
 
-* Install is a useful option here. It lets you search for (add-on) packages that are avaiable from the community. This icludes "markdown-toc", which will insert a table of contents in your markdown etc.
+* Install is a useful option here. It lets you search for (add-on) packages that are avaiable from the community. This includes "markdown-toc", which will insert a table of contents in your markdown etc.
 
 
 ### editor pane
 * When you're in an editor "pane" you can create a new file by selecting the menu item File|New File or else type <kbd>Ctrl</kbd> <kbd>n</kbd> and a new tab will be created in that pane for your new file.
 * A "pane" can contain multiple tabs.  
 * The "Command Pallet" is a useful drop-down dialog that gives you commands "to split a pane in two" and more. Press <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>p</kbd> simultaneously and then type "pane" in the dialog to get a list of pane related commands.  
-![Panes and Tabs](./images/panes_and_tabs.png "Panes|Tabs in Atom")
+![Panes and Tabs](./images/panes_and_tabs1.png "Panes|Tabs in Atom")
 
 ### editing files
 * You can correct spellings by selecting the misspelled word and pressing the <kbd>Ctrl</kbd> <kbd>:</kbd> keys. Choose the correct spelling from the pop up dialog that appears.
