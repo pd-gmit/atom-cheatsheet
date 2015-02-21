@@ -29,24 +29,32 @@ Please note that the Shift key is often labeled on the keyboard as <kbd> &#8679;
 
 ### user settings
 * General Atom settings can be seen by typing the <kbd>Ctrl</kbd> <kbd>,</kbd> combination. "Keybindings" is one of the options available. It shows the mapping between keys combinations and the action they perform.
-![Settings ](./images/settings-keybindings.png "Panes|Tabs in Atom")
+![Settings ](./images/settings-keybindings.png "Panes| Settings"  )
 
 * Packages shows the currently installed packages (including ones that the user has installed themselves).
 * Themes show the installed themes - more can be added by the user.
 
-* Install is a useful option here. It lets you search for (add-on) packages that are avaiable from the community. This includes "markdown-toc", which will insert a table of contents in your markdown etc.
+* Install is a useful option here. It lets you search for (add-on) packages that are available from the community. This includes "markdown-toc", which will insert a table of contents in your markdown etc.
 
+### the command palette
+* The "Command Pallet" is a useful drop-down dialog that lists Atom commands. You can run any "command" by selecting it in the drop down menu. To see the commands (and key bindings) that are relevant to the currently focused GUI interface element press <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>p</kbd>
+
+![Panes and Tabs](./images/command-palette.png "Panes|Tabs in Atom")
 
 ### editor pane
 * When you're in an editor "pane" you can create a new file by selecting the menu item File|New File or else type <kbd>Ctrl</kbd> <kbd>n</kbd> and a new tab will be created in that pane for your new file.
 * A "pane" can contain multiple tabs.  
-* The "Command Pallet" is a useful drop-down dialog that gives you commands "to split a pane in two" and more. Press <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>p</kbd> simultaneously and then type "pane" in the dialog to get a list of pane related commands.  
-![Panes and Tabs](./images/panes_and_tabs1.png "Panes|Tabs in Atom")
+* The "Command Pallet" dialog  gives you commands "to split a pane in two" and more. Press <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>p</kbd> simultaneously and then type "pane" in the dialog to get a list of pane related commands.  
+
 
 ### editing files
 * You can correct spellings by selecting the misspelled word and pressing the <kbd>Ctrl</kbd> <kbd>:</kbd> keys. Choose the correct spelling from the pop up dialog that appears.
 
 * You can select several sequential | non-sequential lines in a file by pressing <kbd>Ctrl</kbd> and then **Mouse-Left-Click** the line(s) you want to select. A blinking cursor will appear at each selected point in the file. You can now write to them (or edit them) all simultaneously! Press <kbd>Esc</kbd> to stop simultaneous editing.
+
+
+
+
 
 ## window
 | Keys                     | Action             |Comment     |
