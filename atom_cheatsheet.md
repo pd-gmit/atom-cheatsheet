@@ -39,7 +39,7 @@ Please note that the Shift key is often labeled on the keyboard as <kbd> &#8679;
 ### the command palette
 * The "Command Pallet" is a useful drop-down dialog that lists Atom commands. You can run any "command" by selecting it in the drop down menu. To see the commands (and key bindings) that are relevant to the currently focused GUI interface element press <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>p</kbd>
 
-![Panes and Tabs](./images/command-palette.png "Panes|Tabs in Atom")
+![Panes and Tabs](./images/panes_and_tabs1.png)
 
 ### editor pane
 * When you're in an editor "pane" you can create a new file by selecting the menu item File|New File or else type <kbd>Ctrl</kbd> <kbd>n</kbd> and a new tab will be created in that pane for your new file.
@@ -56,14 +56,14 @@ Please note that the Shift key is often labeled on the keyboard as <kbd> &#8679;
 
 
 
-## window
-| Keys                     | Action             |Comment     |
-|:-------------------------|:-------------------:|-----------:|
-| <kbd>F11</kbd>      | toggle full screen |            |
-| <kbd>Ctrl</kbd> <kbd>+</kbd>   |increase font size |
-| <kbd>Ctrl</kbd> <kbd>=</kbd>   |increase font size| |
-| <kbd>Ctrl</kbd> <kbd>-</kbd>   |increase font size |
-| <kbd>Ctrl</kbd> <kbd>_</kbd>   |decrease font size|
+### window
+| Keys                      | Action             |Comment     |
+|:--------------------------|:-------------------:|-----------:|
+| <kbd>F11<\kbd>            | toggle full screen |            |
+| <kbd>Ctrl</kbd> <kbd> + </kbd>  | |increase font size |
+| <kbd>Ctrl</kbd> <kbd> = < /kbd>   |increase font size| |
+| <kbd>Ctrl</kbd> <kbd> - </kbd>   |decrease font size |
+| <kbd>Ctrl</kbd> <kbd> _ </kbd>   |decrease font size|
 | <kbd>Ctrl</kbd> <kbd>0</kbd>   | highlights current file |  |
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>p</kbd> | run  package specs | pops/opens a spec suite window |
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>f</kbd> | reloads file | |
