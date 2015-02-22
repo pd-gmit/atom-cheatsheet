@@ -39,13 +39,11 @@ Please note that the Shift key is often labeled on the keyboard as <kbd> &#8679;
 ### the command palette
 * The "Command Pallet" is a useful drop-down dialog that lists Atom commands. You can run any "command" by selecting it in the drop down menu. To see the commands (and key bindings) that are relevant to the currently focused GUI interface element press <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>p</kbd>
 
-![Panes and Tabs](./images/panes_and_tabs1.png)
-
 ### editor pane
 * When you're in an editor "pane" you can create a new file by selecting the menu item File|New File or else type <kbd>Ctrl</kbd> <kbd>n</kbd> and a new tab will be created in that pane for your new file.
 * A "pane" can contain multiple tabs.  
 * The "Command Pallet" dialog  gives you commands "to split a pane in two" and more. Press <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>p</kbd> simultaneously and then type "pane" in the dialog to get a list of pane related commands.  
-
+![Panes and Tabs](./images/panes_and_tabs1.png)
 
 ### editing files
 * You can correct spellings by selecting the misspelled word and pressing the <kbd>Ctrl</kbd> <kbd>:</kbd> keys. Choose the correct spelling from the pop up dialog that appears.
