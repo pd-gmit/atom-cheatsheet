@@ -3,7 +3,7 @@
 
 I created this as a printable version of **Jesse Kasky's** excellent **atom-keybinding-cheatsheet** [Github KeyBinding Cheatsheet Package](https://github.com/jkasky/atom-keybinding-cheatsheet). As I go I'm expanding it with my own notes.
 
-CheatSheet Source Code: https://github.com/pd-gmit/atom-cheatsheet.git
+Cheatsheet Source Code: https://github.com/pd-gmit/atom-cheatsheet.git
 
 <!---
 My first iteration I was using keyboard images .. but then switched to
@@ -50,8 +50,8 @@ Please note that the Shift key is often labeled on the keyboard as <kbd> &#8679;
 
 * You can select several sequential | non-sequential lines in a file by pressing <kbd>Ctrl</kbd> and then **Mouse-Left-Click** the line(s) you want to select. A blinking cursor will appear at each selected point in the file. You can now write to them (or edit them) all simultaneously! Press <kbd>Esc</kbd> to stop simultaneous editing.
 
-
-
+### Overtype mode
+A plugin exists that allows you "overtype" (type and replace/overwrite existing text) its called **atom-overtype-mode**. The "Insert" key does not work without this plugin.  
 
 
 ### window
