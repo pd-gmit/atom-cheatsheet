@@ -76,7 +76,7 @@ Atom concept notes
 -	For a *detailed* list of **all** installed packages (show in a directory tree like format) type `apm list` on the command line.
 -	For a *simple* list of packages that **you installed** type `apm list --installed --bare` on the command line.
 
-### overtype mode
+### over-type mode
 
 A plugin exists that allows you "overtype" (type and replace/over-write existing text) its called **atom-overtype-mode**. The <kbd>Insert</kbd> key does not work without this plugin.
 
@@ -92,7 +92,7 @@ window
 | <kbd>Ctrl</kbd> <kbd> _ </kbd>                                   | decrease font size      |
 | <kbd>Ctrl</kbd> <kbd>0</kbd>                                     | highlights current file |
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>p</kbd>                      | run package specs       |   pops/opens a spec suite window
-| d>Ctrl</kbd> <kbd>Alt</kbd> <kbd>f</kbd>                         | reloads file            |
+| <Ctrl</kbd> <kbd>Alt</kbd> <kbd>f</kbd>                         | reloads file            |
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>&#8592; </kbd> | focus pane on left      |
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>&#8595; </kbd> | focus on pane below     |
 | <kbd>Ctrl</kbd> <kbd>k</kbd> <kbd>Ctrl</kbd> <kbd>n</kbd>        | focus on next pane      | **not working?** opens tab with new empty file
@@ -365,13 +365,13 @@ Notifications
 #asciidoc preview
 | Keys | Action |
 |:-----|---------------:|
-| <kbd>Cmd</kbd> <kbd>\+</kbd>                    | zoom in |
-| <kbd>Cmd</kbd> <kbd>\-</kbd>                    | zoom out |
- | <kbd>Cmd</kbd> <kbd>0</kbd>                    | reset zoom |
- | <kbd>Cmd</kbd> <kbd>=</kbd>                    | zoom in |
- | <kbd>Cmd</kbd> <kbd>\\</kbd>                   | zoom out |
- | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>a</kbd>    | toggle render on save only |
- | <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>a</kbd>  | toggle |
+| <kbd>Cmd</kbd> <kbd>\+</kbd>                   | zoom in |
+| <kbd>Cmd</kbd> <kbd>\-</kbd>                   | zoom out |
+| <kbd>Cmd</kbd> <kbd>0</kbd>                    | reset zoom |
+| <kbd>Cmd</kbd> <kbd>=</kbd>                    | zoom in |
+| <kbd>Cmd</kbd> <kbd>\</kbd>                    | zoom out |
+| <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>a</kbd>    | toggle render on save only |
+| <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>a</kbd>  | toggle |
 
 #image view
 | Keys | Action |
