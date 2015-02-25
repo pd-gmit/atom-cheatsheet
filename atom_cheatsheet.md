@@ -409,13 +409,17 @@ Notifications
 | <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>N</kbd> |   new windows |
 | <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>O</kbd> |   open folder |
 
-#settings
+#settings view 
 
-view | Keys | Action | |:-----|---------------:| | <kbd>Ctrl</kbd> <kbd>,</kbd> | open|
+| Keys | Action | 
+|:-----|---------------:| 
+| <kbd>Ctrl</kbd> <kbd>,</kbd> | open|
 
 #key binding resolver
 
-| Keys | Action | |:-----|---------------:| | <kbd>Ctrl</kbd> <kbd>.</kbd> | togggle|
+| Keys | Action | 
+|:-----|---------------:| 
+| <kbd>Ctrl</kbd> <kbd>.</kbd> | togggle|
 
 #spell check
 
@@ -425,8 +429,8 @@ view | Keys | Action | |:-----|---------------:| | <kbd>Ctrl</kbd> <kbd>,</kbd> 
 
 #bracket matcher
 
-| Keys                                              | Action                         |
-|:--------------------------------------------------|-------------------------------:|
+| Keys                                s              | Action |
+|:--------------------------------------------------|-------:|
 | <kbd>Ctrl</kbd> <kbd>&#93;</kbd>                  | remove brackets from selection |
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>.</kbd>       |                      close tag |
 | <kbd>Ctrl</kbd> <kbd>Alt</kbd> <kbd>&#9003;</kbd> |        remove matching bracket |
