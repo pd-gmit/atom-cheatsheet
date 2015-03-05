@@ -1,4 +1,4 @@
-﻿Atom Cheat-sheet (Linux version).
+Atom Cheat-sheet (Linux version).
 =================================
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Atom Cheatsheet</span> by <span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">Paul Dunne</span> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
@@ -53,7 +53,8 @@ Atom concept notes
 ### editor pane
 
 -	When you're in an editor "pane" you can create a new file by selecting the menu item File|New File or else type <kbd>Ctrl</kbd> <kbd>n</kbd> and a new tab will be created in that pane for your new file.
--	A "pane" can contain multiple tabs.  
+-	A "pane" can contain multiple tabs.
+-	You can show "Whitespace" in the editor by going to FILE > SETTINGS [RHS PANE] select/tick SHOW INVISIBLES. 
 -	The "Command Pallet" dialog gives you commands "to split a pane in two" and more. Press <kbd>Ctrl</kbd> <kbd>Shift</kbd> <kbd>p</kbd> simultaneously and then type "pane" in the dialog to get a list of pane related commands.
 -	A useful plugin for working with panes is the "**resize-panes**" package. Unfortunately it doesn't work initially (it has Mac key bindings). Its fixable by editing the configuration file`~/.atom/packages/resize-panes/keymaps/resize-panes.cson` and appending the following to the file.
 
