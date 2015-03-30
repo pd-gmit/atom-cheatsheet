@@ -72,6 +72,11 @@ Atom concept notes
 
 -	You can select several sequential | non-sequential lines in a file by pressing <kbd>Ctrl</kbd> and then **Mouse-Left-Click** the line(s) you want to select. A blinking cursor will appear at each selected point in the file. You can now write to them (or edit them) all simultaneously! Press <kbd>Esc</kbd> to stop simultaneous editing.
 
+### install additional packages and themes
+
+Open **File** > **Settings**  and in the _Search Packages_ box simply type the name of the package/theme you wish to install
+
+
 ### keeping track of your installed packages
 
 -	For a *detailed* list of **all** installed packages (show in a directory tree like format) type `apm list` on the command line.
@@ -80,6 +85,7 @@ Atom concept notes
 ### over-type mode
 
 A plugin exists that allows you "overtype" (type and replace/over-write existing text) its called **atom-overtype-mode**. The <kbd>Insert</kbd> key does not work without this plugin.
+
 
 window
 ------
