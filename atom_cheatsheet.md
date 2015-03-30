@@ -74,7 +74,7 @@ Atom concept notes
 
 ### install additional packages and themes
 
-Open **File** > **Settings**  and in the _Search Packages_ box simply type the name of the package/theme you wish to install
+Open **File** > **Settings**  and then click/select **+ Install** . In the _Search Packages_ box that appears simply type the name of the package/theme you wish to install.
 
 
 ### keeping track of your installed packages
