@@ -20,11 +20,11 @@ Open the command palette (ctrl-shift-p)   ![CTRL](./keys/ctrl.png)  ![SHIFT](./k
 Atom concept notes
 ------------------
 
-###starting atom
+### starting atom
 
 -	You can start Atom from the command line (and it will start and open all the files in that folder). The files will be visible in the "folder view" in the file view panel.
 
-###folders and files
+### folders and files
 
 -	When Atom starts you can toggle the "file/folder view pane" by pressing the <kbd>Ctrl</kbd> and <kbd>&#92;</kbd> simultaneously. This shortcut is often simply written in the documentation as Ctrl-\\
 
